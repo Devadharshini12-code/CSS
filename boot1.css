@@ -1,0 +1,106 @@
+@import url('https:fonts.googleapis.com/css2?family=Poppins&disply=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+#navbar{
+    position: normal;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background-color:palevioletred;
+}
+.navbar .navbar-brand{
+    font-size: 30px;
+    font-weight: 800;
+    color: chartreuse!important;
+    font-family: cursive;
+}
+#navbarSupportedContent a{
+    color: black;
+    border-bottom: 2px solid transparent;
+    border-radius: 5px;
+    text-align: center;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid chartreuse;
+
+}
+.navbar img{
+    margin: 5px;
+    border-radius: 10px;
+}
+.image{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 10px;
+    border-radius: 10px;
+}
+.flex{
+    margin: 10px;
+    border-radius: 10px;
+
+}
+.flex1{
+    margin: 10px;
+    border-radius: 10px;
+}
+.flex2{
+    margin: 10px;
+    border-radius: 10px;
+}
+.flex3{
+    margin: 10px;
+    border-radius: 10px;
+}
+div{
+    text-align: center;
+    font-family: fantasy;
+    color: darkmagenta;
+    margin: 10px;
+    padding: 10px;
+
+}
+div button{
+    color:darkmagenta;
+    border-radius: 5px;
+    background-color: white;
+    font-family: monospace;
+    font-size: 20px;
+    cursor: pointer;
+}
+div button a{
+    text-decoration-line: none;
+    color: darkmagenta;
+}
+/* @media screen and (max-width:570px){ */
+.cards-wrapper{
+    display: flex;
+}
+.card{
+    margin: 0 .5em;
+    width: calc(100%/3);
+}
+
+.image-wrapper{
+    height: 23vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.image-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+}
+@media screen and (max-width:570px){
+    .card:not(:first-child){
+        display: none;
+    }
+}
